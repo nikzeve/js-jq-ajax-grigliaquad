@@ -3,53 +3,20 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
         <title>Griglia</title>
     </head>
     <body>
 
         <div class="container">
-            <div id="griglia">
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-                <div class="quadrato"></div>
-            </div>
+
+                <div id="griglia">
+                    <script id="entry-template" type="text/x-handlebars-template">
+                        <div class="quadrato"></div>
+                    </script>
+                </div>
 
         </div>
-
-
 
     <script src="main.js" charset="utf-8"></script>
     </body>
